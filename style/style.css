@@ -1,0 +1,189 @@
+:root {
+    --righteous-font: 'Righteous', cursive;
+}
+
+
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 64px;
+    text-align: center;
+    font-family: var(--righteous-font);
+}
+
+
+body {
+    color: white;
+    font-family: sans-serif;
+    background: rgba(31, 34, 118, 0.6);
+}
+
+.container {
+    display: block;
+    width: 600px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px 16px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 50px auto 60px;
+}
+
+ul {
+    margin: 5px 0;
+    padding: 0;
+}
+
+li * {
+    float: left;
+}
+
+li, h3 {
+    clear: both;
+    list-style: none;
+}
+
+input, button {
+    outline: none;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    float: right;
+    margin: 8px auto;
+}
+
+button:hover {
+    color: black;
+}
+
+#add:hover {
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+    background-color: green;
+}
+
+#add {
+    margin-left: 20px;
+    padding: 10px;
+    color: green;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 3px solid white;
+    padding: 10px 0;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-family: var(--righteous-font);
+}
+
+input[type="text"] {
+    margin: 1px 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 2px solid white;
+    background: rgba(5, 5, 5, 0.5);
+    border-radius: 6px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+input[type="text"]:focus {
+    color: white;
+}
+
+label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+input#new-task {
+    float: left;
+    width: 500px;
+    margin-bottom: 24px;
+}
+
+li > div > button:hover {
+    color: #00aa00;
+}
+
+li > button.checkbox:hover {
+    color: #7a7a7a;
+}
+
+li {
+    overflow: hidden;
+    border-bottom: 1px solid white;
+}
+
+li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+    transform: scale(1.5);
+}
+
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 421px;
+    padding: 1px 0 0 11px
+}
+
+li > input[type="text"] {
+    width: 400px;
+}
+
+li > div >  .delete:hover {
+    color: #bb0000;
+}
+
+li > div >  .description:hover {
+    color: #0000ff;
+}
+
+#finished-tasks label, #finished-tasks button {
+    text-decoration: line-through;
+    color: #555555;
+}
+
+ul li input[type=text] {
+    display: none;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+    width: 160px;
+}
+
+ul li.editMode label {
+    display: none;
+}
+
+button.checkbox {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
